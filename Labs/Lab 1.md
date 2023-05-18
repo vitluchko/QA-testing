@@ -9,7 +9,7 @@ And I enter my email address
 Then I receive an email with a link to reset my password
 And I am able to successfully reset my password
 
-<p style="color:#FFFF00;">============================================================================================</p> 
+============================================================================================
 
 User Story: As an online shopper, I want to be able to track the status of my order so that I can know when to expect its delivery.
 
