@@ -1,4 +1,4 @@
-User Story: As a registered user, I want to be able to reset my password so that I can access my account if I forget my password.
+* User Story: As a registered user, I want to be able to reset my password so that I can access my account if I forget my password.
 
 Scenario: Reset Password
 
@@ -11,7 +11,7 @@ And I am able to successfully reset my password <br />
 
 ============================================================================================
 
-User Story: As an online shopper, I want to be able to track the status of my order so that I can know when to expect its delivery.
+* User Story: As an online shopper, I want to be able to track the status of my order so that I can know when to expect its delivery.
 
 Scenario: Track Order Status
 
@@ -24,7 +24,7 @@ And I receive notifications or updates if there are any changes to the status or
 
 ============================================================================================
 
-User Story: As a mobile app user, I want to be able to customize my notification preferences so that I can control the types of notifications I receive.
+* User Story: As a mobile app user, I want to be able to customize my notification preferences so that I can control the types of notifications I receive.
 
 Scenario: Customize Notification Preferences
 
