@@ -9,7 +9,7 @@ And I enter my email address
 Then I receive an email with a link to reset my password
 And I am able to successfully reset my password
 
-====================================================================================================================================
+<p style="color:#FFFF00;">============================================================================================</p> 
 
 User Story: As an online shopper, I want to be able to track the status of my order so that I can know when to expect its delivery.
 
@@ -22,7 +22,7 @@ Then I can view the current status of my order
 And I can see the estimated delivery date
 And I receive notifications or updates if there are any changes to the status or delivery date of my order
 
-====================================================================================================================================
+============================================================================================
 
 User Story: As a mobile app user, I want to be able to customize my notification preferences so that I can control the types of notifications I receive.
 
@@ -35,12 +35,3 @@ Then I can select the types of notifications I want to receive (e.g., promotions
 And I can choose the preferred method of receiving notifications (e.g., push notifications, email, SMS)
 And I can save my preferences
 And I receive notifications based on the customized preferences I have set.
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
