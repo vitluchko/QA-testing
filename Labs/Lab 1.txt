@@ -1,4 +1,4 @@
-User Story: As a registered user, I want to be able to reset my password so that I can access my account if I forget my password.
+#FFA500User Story: #000000As a registered user, I want to be able to reset my password so that I can access my account if I forget my password.
 
 Scenario: Reset Password
 
