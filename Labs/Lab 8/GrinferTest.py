@@ -16,8 +16,8 @@ input_password = WebDriverWait(driver, 10).until(EC.visibility_of_element_locate
 
 click_btn_log_in = driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
-# Пауза на 20 секунд
-time.sleep(20)
+# Пауза на 10 секунд
+time.sleep(10)
 
 # Закриття веб-сторінки та браузера
 driver.quit()
