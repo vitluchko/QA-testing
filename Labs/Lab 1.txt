@@ -1,4 +1,4 @@
-#FFA500User Story: #000000As a registered user, I want to be able to reset my password so that I can access my account if I forget my password.
+User Story: As a registered user, I want to be able to reset my password so that I can access my account if I forget my password.
 
 Scenario: Reset Password
 
@@ -35,3 +35,12 @@ Then I can select the types of notifications I want to receive (e.g., promotions
 And I can choose the preferred method of receiving notifications (e.g., push notifications, email, SMS)
 And I can save my preferences
 And I receive notifications based on the customized preferences I have set.
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
