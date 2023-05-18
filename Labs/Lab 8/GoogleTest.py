@@ -15,7 +15,7 @@ input_google.send_keys(Keys.RETURN)
 
 assert "Iphone - Пошук Google" in driver.title
 
-# Пауза на 20 секунд
-time.sleep(20)
+# Пауза на 10 секунд
+time.sleep(10)
 
 driver.close()
