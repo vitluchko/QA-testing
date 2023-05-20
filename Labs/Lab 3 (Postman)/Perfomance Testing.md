@@ -34,7 +34,7 @@
 * Analyze the performance test results and compare them against the defined performance goals. Identify any performance bottlenecks, resource constraints, or architectural limitations. 
 * Look for opportunities to optimize the application and improve performance.
 
-10. <h4>Performance Tuning:</h4> 
+10. <h4>Performance Tuning:</h4>
 * Based on the analysis, optimize the application by making code changes, infrastructure adjustments, or database optimizations. 
 * Retest the application to ensure that the changes have positively impacted performance.
 
