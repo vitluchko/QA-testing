@@ -1,59 +1,45 @@
-1. <h4>Identify the target locale:</h4>
-- Determine the specific locale or language you want to test.
-- This could be a specific region, language, or combination of both.
+1. <h4>User Interface Localization:</h4>
 
-2. <h4>Configure Postman settings:</h4>
-- Go to the Postman settings and set the appropriate language and region settings to match the target locale.
-- This will ensure that Postman's user interface and error messages are displayed in the desired language.
+* Change the language settings of the operating system or Postman application to the target language.
+* Verify that all user interface elements, including menus, buttons, labels, and error messages, are correctly translated.
+* Check that the layout and alignment of UI elements are appropriate for the target language, considering factors such as text expansion or contraction.
+* Verify that the localized UI is culturally appropriate and does not contain offensive or inappropriate content.
 
-3. <h4>API Requests:</h4>
-- Make API requests to your target API endpoints or web services using Postman. Pay attention to the following aspects:
+2. <h4>Input and Output Localization:</h4>
 
- <h5>a. Input Data:</h5>
+* Enter localized text data in various fields, such as headers, request parameters, and body.
+* Verify that the application correctly handles and processes localized input data.
+* Ensure that special characters, accents, and diacritical marks are supported and displayed accurately.
+* Validate that the application produces localized output, such as response messages or error notifications, in the expected language.
 
-** Use data that includes characters, symbols, or formats specific to the target locale.<br />
-** For example, if testing a date input, ensure the date format matches the target locale's conventions.
+3. <h4>Date and Time Localization:</h4>
 
-<h5>b. Response Validation:</h5>
-** Verify that the response data returned by the API is localized correctly.<br />
-** Check for localized error messages, labels, and any other text displayed in the response.
+* Configure the system or Postman application to use different date and time formats specific to the target locale.
+* Verify that date and time fields are displayed in the expected format.
+* Test the application's behavior when dealing with date and time calculations, comparisons, and conversions in the localized context.
+* Check the accuracy of localized date and time-related functionalities, such as time zone conversions or daylight saving time adjustments.
 
-<h5>c. Character Encoding:</h5>
-** Ensure that the API correctly handles and displays characters specific to the target locale.<br />
-** Test characters with diacritics, special symbols, or non-ASCII characters.
+4. <h4>Number and Currency Localization:</h4>
 
-4. <h4>Date and Time Formats:</h4>
-- Check how the API handles date and time formats in the target locale.
-- Make requests with various date formats and verify that the responses are in the expected format for the given locale.
+* Test the application's handling of localized numeric formats, decimal separators, and digit grouping symbols.
+* Validate that numerical calculations, rounding, and formatting follow the rules of the target locale.
+* Verify the correct display of localized currency symbols and proper handling of currency conversions, if applicable.
+* Check for consistency in the localization of numeric data across different areas of the application.
 
-5. <h4>Currency and Number Formatting:</h4>
-- Test how the API handles currency and number formatting specific to the target locale.
-- Ensure that decimal separators, thousand separators, and currency symbols are displayed correctly in the response.
+5. <h4>Language-Dependent Features:</h4>
 
-6. <h4>Text Expansion and Concatenation:</h4>
-- Some languages have different rules for text expansion and concatenation. Test cases where the API dynamically generates text by concatenating or expanding strings.
-- Verify that the resulting text is displayed correctly in the target locale.
+* Verify the behavior of language-dependent features, such as code syntax highlighting or auto-completion in the Postman script editor.
+* Test the support for non-Latin character sets or writing systems specific to the target language.
+* Check the correct display and functionality of localized documentation, tooltips, or help resources.
 
-7. <h4>Localization Files:</h4>
-- If the API uses localization files, ensure that the correct files are being loaded based on the locale settings.
-- Verify that the localized text in these files is accurate and properly displayed.
+6. <h4>Locale-Sensitive Data:</h4>
 
-8. <h4>Error Handling:</h4>
-- Test how the API handles errors in the target locale.
-- Submit incorrect or invalid data and verify that the error messages returned are localized and understandable to the user in that locale.
+* Test the application's handling of locale-specific data formats, such as addresses, phone numbers, postal codes, or units of measurement.
+* Verify that the application accurately formats and validates locale-specific data according to the rules of the target locale.
+* Test scenarios involving locale-specific data, such as address validation or unit conversion, to ensure correct behavior.
 
-9. <h4>UI Components:</h4>
-- If your API includes UI components, such as buttons, labels, or tooltips, test that they are localized correctly.
-- Verify that the text is displayed in the appropriate language and fits within the allocated space.
+7. <h4>Localization Compatibility:</h4>
 
-10. <h4>Boundary and Corner Cases:</h4>
-- Consider testing boundary and corner cases specific to the target locale.
-- For example, test inputs that include text in right-to-left languages or test numeric values with different units of measurement used in different locales.
-
-11. <h4>Accessibility:</h4>
-- Verify that the API is accessible to users with disabilities in the target locale.
-- Check for proper screen reader support, alternative text for images, and other accessibility features.
-
-12. <h4>Cross-Browser and Cross-Platform Testing:</h4>
-- Test the API and its localization on different browsers and platforms commonly used in the target locale.
-- Ensure consistent behavior and rendering across various environments.
+* Ensure that the application functions correctly when the system's regional settings are changed to different locales.
+* Test compatibility with different operating systems or platforms, as certain localization features may vary across environments.
+* Verify that the application does not introduce any regressions or issues when switching between languages or locales.
