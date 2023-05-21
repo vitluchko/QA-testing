@@ -45,6 +45,6 @@
 - If authorized, conduct penetration testing on the API. Attempt to exploit vulnerabilities and gain unauthorized access to resources.
 - This may include brute-force attacks, session manipulation, or any other techniques that could potentially compromise the API's security.
 
-12. <h4>Report vulnerabilities and document findings:</h4>
+12. <h4>Report vulnerabilities and document findings:</h4> 
 - Document any security vulnerabilities discovered during testing and report them to the development team.
 - Provide clear and detailed information about each vulnerability, including its impact, potential remediation steps, and any supporting evidence.
